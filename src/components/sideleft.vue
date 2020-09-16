@@ -1,7 +1,7 @@
 <template>
 
-  <div class="side-right">
-    I am on the side of the page on the right.
+  <div class="side-left">
+    I am on the side of the page on the left.
  </div>
  
 </template>
@@ -10,7 +10,7 @@
 <script>
 
 export default {
-  name: "side-right",
+  name: "side-left",
 };
 
 </script>

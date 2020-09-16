@@ -3,18 +3,25 @@
   <div
     class="page-body">
    <side-right />
+   <body-meet />
+    <side-left />
     </div>
   
 </template>
 
 
 <script>
-import SideRight from "./sideright.vue"
+import SideRight from "./sideright.vue";
+import SideLeft from "./sideleft.vue";
+import BodyMeet from "./meet.vue";
 
 export default {
   name: "page-body",
   components: {
-  SideRight
+  SideRight,
+  SideLeft,
+  BodyMeet
+
   }
 };
 </script>
@@ -24,7 +31,7 @@ export default {
   display: grid;
   justify-items: center;
   align-items: center;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 10%;
 }
 </style>
